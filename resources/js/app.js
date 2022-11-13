@@ -6,7 +6,7 @@
 
 import './bootstrap';
 import { createApp } from 'vue';
-import router from './router';
+import router from './router/index.js';
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
