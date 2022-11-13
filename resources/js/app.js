@@ -16,9 +16,7 @@ import router from './router/index.js';
 
 const app = createApp({});
 
-import ExampleComponent from './components/ExampleComponent.vue';
 import HeaderComponent from "./components/HeaderComponent.vue";
-app.component('example-component', ExampleComponent);
 app.component('header-component', HeaderComponent);
 
 /**
